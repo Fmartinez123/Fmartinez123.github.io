@@ -25,6 +25,9 @@ const whenExternalScripts = (items = []) =>
     : [];
 
 export default defineConfig({
+  site: 'https://fmartinez123.github.io',
+  base: 'my-repo', 
+
   output: 'static',
 
   integrations: [
